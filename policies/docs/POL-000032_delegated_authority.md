@@ -1,7 +1,7 @@
 ---
 title: Delegated Authority
-parent: Policies  # Matches the parent's title exactly
-nav_order: 5  # Order under the parent
+parent: Policies  
+nav_order: 33
 doc-number: POL-000032
 ---
 

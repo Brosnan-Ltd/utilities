@@ -1,7 +1,7 @@
 ---
 title: Workplace Privacy
 parent: Policies  # Matches the parent's title exactly
-nav_order: 5  # Order under the parent
+nav_order: 29  # Order under the parent
 doc-number: POL-000028
 ---
 

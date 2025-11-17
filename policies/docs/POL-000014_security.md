@@ -1,7 +1,7 @@
 ---
 title: Security
 parent: Policies  # Matches the parent's title exactly
-nav_order: 5  # Order under the parent
+nav_order: 15  # Order under the parent
 doc-number: POL-000014
 ---
 
