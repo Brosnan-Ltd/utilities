@@ -38,7 +38,7 @@ We seek to understand and deliver on the unique needs of each client. In doing t
 ### Our Values
 Taking Ownership, Developing Solutions, Building Relationships.
 
-<img src="../../ValuesIcons.jpg" alt="Brosnan Logo" width="auto" height="100">
+<img src="../../brosnan_values_icons.jpg" alt="Brosnan Logo" width="auto" height="100">
  
 ## About Brosnan
 Brosnan remediates, upgrades, refurbishes, and maintains existing multi-unit residential and non-residential buildings. We begin with the customer’s needs and create effective, tailored solutions for each project. Brosnan gives clients the confidence that their most valued asset is in safe hands.
