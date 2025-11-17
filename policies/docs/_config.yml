@@ -1,0 +1,17 @@
+title: Brosnan Policies
+description: Official company policies and employee handbook
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-seo-tag
+
+# Optional: Add company logo
+logo: /Brosnan_logo.png
+
+# Exclude files
+exclude:
+  - .github/
+  - README.md
+  - LICENSE
+  - hr-benefits
+  - hse-swms
