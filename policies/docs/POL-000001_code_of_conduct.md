@@ -6,6 +6,7 @@ doc-number: POL-000001
 ---
 
 # Code of Conduct
+`POL-000001`
 
 ## 2.1	Purpose and Scope
 To protect your well-being and the well-being of others, we have developed a Code of Conduct setting out behaviour standards that all Employees are required to follow. You need to be aware of these standards as you commence your employment.
