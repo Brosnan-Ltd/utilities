@@ -8,7 +8,7 @@ doc-number: POL-000002
 POL-000002
 {: .label .label-green .p}
 
-# Appearance and Dress Standards
+# Appearance and Dress Standards | POL-000002
 
 ## 3.1 Purpose and Scope
 

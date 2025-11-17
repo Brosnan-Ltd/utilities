@@ -6,7 +6,9 @@ doc-number: POL-000001
 ---
 
 `POL-000001`
-# Code of Conduct
+# 
+
+# Code of Conduct <span style="background:#12b981;color:white;font-size:0.65rem;padding:0.2em 0.6em;border-radius:1rem">POL-000001 <small>(v0.4.0)</small></span>
 
 
 ## 2.1	Purpose and Scope

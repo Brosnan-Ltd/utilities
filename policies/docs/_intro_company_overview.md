@@ -1,7 +1,7 @@
 ---
 title: Company Overview
-parent: Policies  # Matches the parent's title exactly
-nav_order: 1  # Order under the parent
+parent: Policies  
+nav_order: 1 
 doc-number: INTRO
 ---
 
