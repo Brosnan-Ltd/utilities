@@ -1,8 +1,8 @@
--------
+---
 title: Appearance and Dress Standards
 parent: Policies
 nav-order: 3
--------
+---
 
 
 # APPEARANCE & DRESS STANDARDS POLICY
