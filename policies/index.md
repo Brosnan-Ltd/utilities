@@ -2,7 +2,7 @@
 title: Brosnan Policies
 ---
 
-<img src="../../brosnan_logo.png" alt="Brosnan Logo" width="48" height="48">
+<img src="../assets/brosnan_logo.png" alt="Brosnan Logo" width="48" height="48">
 
 # Company Policies
 
