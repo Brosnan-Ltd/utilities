@@ -8,7 +8,7 @@ doc-number: POL-000002
 `POL-000002`
 
 POL-000002
-{ .label .label-orange}
+{: .label .label-orange}
 
 # Appearance and Dress Standards
 
