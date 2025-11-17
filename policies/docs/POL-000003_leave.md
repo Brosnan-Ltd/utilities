@@ -1,7 +1,7 @@
 ---
 title: Leave
 parent: Policies
-nav-order: 4
+nav_order: 4
 doc-number: POL-000003
 ---
 
