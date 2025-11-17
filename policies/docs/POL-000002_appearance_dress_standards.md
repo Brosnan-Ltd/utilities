@@ -1,14 +1,13 @@
 ---
-title: Appearance and Dress Standards
+title: Appearance and Dress Standards | POL-000002
 parent: Policies
 nav_order: 3
-doc-number: POL-000002
 ---
 
 POL-000002
-{: .label .label-green .p}
+{: .label .label-green}
 
-# Appearance and Dress Standards | POL-000002
+# Appearance and Dress Standards 
 
 ## 3.1 Purpose and Scope
 

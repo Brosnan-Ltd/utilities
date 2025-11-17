@@ -1,9 +1,11 @@
 ---
-title: Vehicle
-parent: Policies  # Matches the parent's title exactly
-nav_order: 22  # Order under the parent
-doc-number: POL-000021
+title: Vehicle | POL-000021
+parent: Policies 
+nav_order: 22
 ---
+
+POL-000021
+{: .label .label-green}
 
 # Vehicle
 

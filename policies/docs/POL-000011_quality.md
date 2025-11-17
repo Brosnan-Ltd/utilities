@@ -1,9 +1,11 @@
 ---
-title: Quality
-parent: Policies  # Matches the parent's title exactly
-nav_order: 12  # Order under the parent
-doc-number: POL-000011
+title: Quality | POL-000011
+parent: Policies
+nav_order: 12
 ---
+
+POL-000011
+{: .label .label-green}
 
 # Quality
 

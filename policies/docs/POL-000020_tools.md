@@ -1,9 +1,11 @@
 ---
-title: Tools
-parent: Policies  # Matches the parent's title exactly
-nav_order: 21  # Order under the parent
-doc-number: POL-000020
+title: Tools | POL-000020
+parent: Policies
+nav_order: 21
 ---
+
+POL-000020
+{: .label .label-green}
 
 # Tools
 

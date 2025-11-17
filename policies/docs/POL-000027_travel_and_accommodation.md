@@ -1,9 +1,11 @@
 ---
-title: Travel and Accommodation
-parent: Policies  # Matches the parent's title exactly
-nav_order: 28  # Order under the parent
-doc-number: POL-000027
+title: Travel and Accommodation | POL-000027
+parent: Policies
+nav_order: 28
 ---
+
+POL-000027
+{: .label .label-green}
 
 # Travel and Accommodation
 

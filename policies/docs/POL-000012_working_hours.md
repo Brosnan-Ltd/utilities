@@ -1,9 +1,11 @@
 ---
-title: Working Hours
-parent: Policies  # Matches the parent's title exactly
-nav_order: 13  # Order under the parent
-doc-number: POL-000012
+title: Working Hours | POL-000012
+parent: Policies  
+nav_order: 13
 ---
+
+POL-000012
+{: .label .label-green}
 
 # Working Hours
 

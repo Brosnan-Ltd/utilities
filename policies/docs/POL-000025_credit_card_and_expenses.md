@@ -1,9 +1,11 @@
 ---
-title: Credit Card and Expenses
-parent: Policies  # Matches the parent's title exactly
-nav_order: 26  # Order under the parent
-doc-number: POL-000025
+title: Credit Card and Expenses | POL-000025
+parent: Policies
+nav_order: 26
 ---
+
+POL-000025
+{: .label .label-green}
 
 # Credit Card And Expenses
 

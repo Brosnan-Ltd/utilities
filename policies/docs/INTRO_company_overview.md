@@ -1,9 +1,11 @@
 ---
-title: Company Overview
+title: Company Overview | INTRO
 parent: Policies  
-nav_order: 1 
-doc-number: INTRO
+nav_order: 1
 ---
+
+INTRO
+{: .label .label-green}
 
 # Company Overview
 

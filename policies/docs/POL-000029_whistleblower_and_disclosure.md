@@ -1,9 +1,11 @@
 ---
-title: Whistleblower and Disclosure
-parent: Policies  # Matches the parent's title exactly
-nav_order: 30  # Order under the parent
-doc-number: POL-000029
+title: Whistleblower and Disclosure | POL-000029
+parent: Policies
+nav_order: 30
 ---
+
+POL-000029
+{: .label .label-green}
 
 # Whistleblower and Disclosure
 

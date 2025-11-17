@@ -1,9 +1,11 @@
 ---
-title: Security
-parent: Policies  # Matches the parent's title exactly
-nav_order: 15  # Order under the parent
-doc-number: POL-000014
+title: Security | POL-000014
+parent: Policies
+nav_order: 15
 ---
+
+POL-000014
+{: .label .label-green}
 
 # Security
 

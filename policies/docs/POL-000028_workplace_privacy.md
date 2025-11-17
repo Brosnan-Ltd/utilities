@@ -1,9 +1,11 @@
 ---
-title: Workplace Privacy
-parent: Policies  # Matches the parent's title exactly
-nav_order: 29  # Order under the parent
-doc-number: POL-000028
+title: Workplace Privacy | POL-000028
+parent: Policies
+nav_order: 29
 ---
+
+POL-000028
+{: .label .label-green}
 
 # Workplace Privacy
 

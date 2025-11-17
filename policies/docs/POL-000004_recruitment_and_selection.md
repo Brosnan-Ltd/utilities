@@ -1,9 +1,11 @@
 ---
-title: Recruitment and Selection
-parent: Policies  # Matches the parent's title exactly
-nav_order: 5  # Order under the parent
-doc-number: POL-000004
+title: Recruitment and Selection | POL-000004
+parent: Policies 
+nav_order: 5
 ---
+
+POL-000004
+{: .label .label-green}
 
 # Recruitment and Selection
 

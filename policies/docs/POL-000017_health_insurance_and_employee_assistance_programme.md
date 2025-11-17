@@ -1,9 +1,11 @@
 ---
-title: Health insurance and Employee Assistance Programme
-parent: Policies  # Matches the parent's title exactly
-nav_order: 18  # Order under the parent
-doc-number: POL-000017
+title: Health insurance and Employee Assistance Programme | POL-000017
+parent: Policies
+nav_order: 18
 ---
+
+POL-000017
+{: .label .label-green}
 
 # Health insurance and Employee Assistance Programme
 

@@ -1,9 +1,11 @@
 ---
-title: Smoking and E-cigarette
-parent: Policies  # Matches the parent's title exactly
-nav_order: 14  # Order under the parent
-doc-number: POL-000013
+title: Smoking and E-cigarette | POL-000013
+parent: Policies
+nav_order: 14
 ---
+
+POL-000013
+{: .label .label-green}
 
 # Smoking and E-cigarette
 

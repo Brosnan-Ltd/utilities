@@ -1,9 +1,11 @@
 ---
-title: Discrimination, Harrassment and Workplace Bullying
-parent: Policies  # Matches the parent's title exactly
-nav_order: 16  # Order under the parent
-doc-number: POL-000015
+title: Discrimination, Harrassment and Workplace Bullying | POL-000015
+parent: Policies 
+nav_order: 16
 ---
+
+POL-000015
+{: .label .label-green}
 
 # Discrimination, Harrassment and Workplace Bullying
 

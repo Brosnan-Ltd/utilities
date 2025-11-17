@@ -1,9 +1,11 @@
 ---
-title: Entertainment
-parent: Policies  # Matches the parent's title exactly
-nav_order: 27  # Order under the parent
-doc-number: POL-000026
+title: Entertainment | POL-000026
+parent: Policies
+nav_order: 27
 ---
+
+POL-000026
+{: .label .label-green}
 
 # Entertainment
 

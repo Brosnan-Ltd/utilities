@@ -1,9 +1,11 @@
 ---
-title: Fitness For Work
-parent: Policies  # Matches the parent's title exactly
-nav_order: 9  # Order under the parent
-doc-number: POL-000008
+title: Fitness For Work | POL-000008
+parent: Policies 
+nav_order: 9
 ---
+
+POL-000008
+{: .label .label-green}
 
 # Fitness For Work
 

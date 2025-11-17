@@ -1,14 +1,13 @@
 ---
-title: Code of Conduct
-parent: Policies  # Matches the parent's title exactly
-nav_order: 2  # Order under the parent
-doc-number: POL-000001
+title: Code of Conduct | POL-000001
+parent: Policies 
+nav_order: 2
 ---
 
-`POL-000001`
-# 
+POL-000001
+{: .label .label-green}
 
-# Code of Conduct <span style="background:#12b981;color:white;font-size:0.65rem;padding:0.2em 0.6em;border-radius:1rem">POL-000001 <small>(v0.4.0)</small></span>
+# Code of Conduct
 
 
 ## 2.1	Purpose and Scope

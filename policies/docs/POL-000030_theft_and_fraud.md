@@ -1,9 +1,11 @@
 ---
-title: Theft and Fraud
+title: Theft and Fraud | POL-000030
 parent: Policies  # Matches the parent's title exactly
-nav_order: 31  # Order under the parent
-doc-number: POL-000030
+nav_order: 31 
 ---
+
+POL-000030
+{: .label .label-green}
 
 # Theft and Fraud
 

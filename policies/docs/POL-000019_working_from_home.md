@@ -1,9 +1,11 @@
 ---
-title: Working From Home
-parent: Policies  # Matches the parent's title exactly
-nav_order: 20  # Order under the parent
-doc-number: POL-000019
+title: Working From Home | POL-000019
+parent: Policies
+nav_order: 20
 ---
+
+POL-000019
+{: .label .label-green}
 
 # Working From Home
 

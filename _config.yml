@@ -7,7 +7,7 @@ plugins:
 
 # Optional: Add company logo
 logo: /assets/brosnan_logo.png
-favicon_ico: /assets/brosnan_fav.png"
+favicon_ico: /assets/brosnan_fav.png
 
 Search_enabled: true
 search:

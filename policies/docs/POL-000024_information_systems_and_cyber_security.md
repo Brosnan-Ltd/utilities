@@ -1,9 +1,11 @@
 ---
-title: Information Systems and Cyber Security
-parent: Policies  # Matches the parent's title exactly
-nav_order: 25  # Order under the parent
-doc-number: POL-000024
+title: Information Systems and Cyber Security | POL-000024
+parent: Policies
+nav_order: 25
 ---
+
+POL-000024
+{: .label .label-green}
 
 # Information Systems and Cyber Security
 

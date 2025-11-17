@@ -1,10 +1,11 @@
 ---
-title: Leave
+title: Leave | POL-000003
 parent: Policies
 nav_order: 4
-doc-number: POL-000003
 ---
 
+POL-000003
+{: .label .label-green}
 
 # Leave
 

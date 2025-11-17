@@ -1,9 +1,11 @@
 ---
-title: Relationships in the Workplace
-parent: Policies  # Matches the parent's title exactly
-nav_order: 19  # Order under the parent
-doc-number: POL-000018
+title: Relationships in the Workplace | POL-000018
+parent: Policies
+nav_order: 19
 ---
+
+POL-000018
+{: .label .label-green}
 
 # Relationships in the Workplace
 

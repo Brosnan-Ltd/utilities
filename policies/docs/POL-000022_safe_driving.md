@@ -1,9 +1,11 @@
 ---
-title: Safe Driving
-parent: Policies  # Matches the parent's title exactly
-nav_order: 23  # Order under the parent
-doc-number: POL-000022
+title: Safe Driving | POL-000022
+parent: Policies
+nav_order: 23 
 ---
+
+POL-000022
+{: .label .label-green}
 
 # Safe Driving
 

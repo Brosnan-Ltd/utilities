@@ -1,9 +1,11 @@
 ---
-title: Performance and Feedback
-parent: Policies  # Matches the parent's title exactly
-nav_order: 7  # Order under the parent
-doc-number: POL-000006
+title: Performance and Feedback | POL-000006
+parent: Policies 
+nav_order: 7
 ---
+
+POL-000006
+{: .label .label-green}
 
 # Performance and Feedback
 

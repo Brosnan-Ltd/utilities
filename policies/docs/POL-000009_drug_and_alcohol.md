@@ -1,9 +1,11 @@
 ---
-title: Drug and Alcohol
-parent: Policies  # Matches the parent's title exactly
-nav_order: 10  # Order under the parent
-doc-number: POL-000010
+title: Drug and Alcohol | POL-000010
+parent: Policies
+nav_order: 10
 ---
+
+POL-000010
+{: .label .label-green}
 
 # Drug and Alcohol
 

@@ -1,9 +1,11 @@
 ---
-title: Health and Safety
-parent: Policies  # Matches the parent's title exactly
-nav_order: 8  # Order under the parent
-doc-number: POL-000007
+title: Health and Safety | POL-000007
+parent: Policies  
+nav_order: 8
 ---
+
+POL-000007
+{: .label .label-green}
 
 # Health and Safety
 

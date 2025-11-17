@@ -1,9 +1,11 @@
 ---
-title: Disciplinary
+title: Disciplinary | POL-000016
 parent: Policies  # Matches the parent's title exactly
 nav_order: 17  # Order under the parent
-doc-number: POL-000016
 ---
+
+POL-000016
+{: .label .label-green}
 
 # Disciplinary
 

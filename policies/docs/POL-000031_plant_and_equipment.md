@@ -1,9 +1,11 @@
 ---
-title: Plant and Equipment
-parent: Policies  # Matches the parent's title exactly
-nav_order: 32  # Order under the parent
-doc-number: POL-000031
+title: Plant and Equipment | POL-000031
+parent: Policies
+nav_order: 32
 ---
+
+POL-000031
+{: .label .label-green}
 
 # Plant & Equipment
 

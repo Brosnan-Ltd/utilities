@@ -1,9 +1,11 @@
 ---
-title: Environmental and Waste Management
-parent: Policies  # Matches the parent's title exactly
-nav_order: 11  # Order under the parent
-doc-number: POL-000010
+title: Environmental and Waste Management | POL-000010
+parent: Policies
+nav_order: 11
 ---
+
+POL-000010
+{: .label .label-green}
 
 # Environmental and Waste Management
 

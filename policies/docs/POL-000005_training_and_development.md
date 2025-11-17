@@ -1,9 +1,11 @@
 ---
-title: Training and Development
-parent: Policies  # Matches the parent's title exactly
-nav_order: 6  # Order under the parent
-doc-number: POL-000005
+title: Training and Development | POL-000005
+parent: Policies 
+nav_order: 6 
 ---
+
+POL-000005
+{: .label .label-green}
 
 # Training and Development
 
