@@ -2,9 +2,10 @@
 title: Code of Conduct
 parent: Policies  # Matches the parent's title exactly
 nav_order: 2  # Order under the parent
+doc-number: POL-000001
 ---
 
-# Code of Conduct Policy
+# Code of Conduct
 
 ## 2.1	Purpose and Scope
 To protect your well-being and the well-being of others, we have developed a Code of Conduct setting out behaviour standards that all Employees are required to follow. You need to be aware of these standards as you commence your employment.
