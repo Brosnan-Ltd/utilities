@@ -1,9 +1,12 @@
 title: Brosnan Policies
 description: Official company policies and employee handbook
 markdown: kramdown
-remote_theme: just-the-docs/just-the-docs
+#remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
+color_scheme: brosnanOrange
 #plugins:
 #  - jekyll-seo-tag
+enable_switcher: true
 
 # Optional: Add company logo
 logo: /assets/brosnan_logo.png
