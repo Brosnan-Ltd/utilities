@@ -51,6 +51,11 @@ aux_links_new_tab: true
 back_to_top: true
 back_to_top_text: "Back to top"
 
+# Footer
+footer_content: "<!-- footer is inserted via _includes/footer.html -->"
+# This line tells Just-the-Docs to include your custom footer
+
+
 # Exclude files
 exclude:
   - .github/
