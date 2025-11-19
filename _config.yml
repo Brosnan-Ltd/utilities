@@ -66,9 +66,10 @@ mermaid:
 ga_tracking: G-9LCR4RMXSH
 ga_tracking_anonymize_ip: false # Use GDPR compliant Google Analytics settings (true/nil by default)
 
+callouts_level: loud # or quiet
 callouts:
   lookatme:
-    color: #F68B1F
+    color: orange
     opacity: 0.3
 
 # Exclude files
