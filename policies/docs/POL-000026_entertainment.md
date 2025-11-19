@@ -1,6 +1,6 @@
 ---
 title: Entertainment | POL-000026
-parent: Policies
+# parent: Policies 
 nav_order: 27
 ---
 

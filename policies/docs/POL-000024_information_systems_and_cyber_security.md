@@ -1,6 +1,6 @@
 ---
 title: Information Systems and Cyber Security | POL-000024
-parent: Policies
+# parent: Policies 
 nav_order: 25
 ---
 

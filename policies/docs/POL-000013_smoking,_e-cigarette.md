@@ -1,6 +1,6 @@
 ---
 title: Smoking and E-cigarette | POL-000013
-parent: Policies
+# parent: Policies 
 nav_order: 14
 ---
 

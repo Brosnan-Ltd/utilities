@@ -1,6 +1,6 @@
 ---
 title: Mobile Device | POL-000023
-parent: Policies
+# parent: Policies 
 nav_order: 24
 ---
 

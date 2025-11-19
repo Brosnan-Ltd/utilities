@@ -1,6 +1,6 @@
 ---
 title: Plant and Equipment | POL-000031
-parent: Policies
+# parent: Policies 
 nav_order: 32
 ---
 

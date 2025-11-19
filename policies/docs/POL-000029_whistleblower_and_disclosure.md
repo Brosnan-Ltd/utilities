@@ -1,6 +1,6 @@
 ---
 title: Whistleblower and Disclosure | POL-000029
-parent: Policies
+# parent: Policies 
 nav_order: 30
 ---
 
