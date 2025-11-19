@@ -55,6 +55,16 @@ back_to_top_text: "Back to top"
 footer_content: "<!-- footer is inserted via _includes/footer.html -->"
 # This line tells Just-the-Docs to include your custom footer
 
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "11.12.1"
+
+# Google Analytics Tracking (optional)
+# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
+# Note: the main Just the Docs site does *not* use Google Analytics.
+ga_tracking: G-9LCR4RMXSH
+ga_tracking_anonymize_ip: false # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 # Exclude files
 exclude:
