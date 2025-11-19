@@ -66,7 +66,7 @@ mermaid:
 ga_tracking: G-9LCR4RMXSH
 ga_tracking_anonymize_ip: false # Use GDPR compliant Google Analytics settings (true/nil by default)
 
-callout:
+callouts:
   lookatme:
     color: #F68B1F
     opacity: 0.3
