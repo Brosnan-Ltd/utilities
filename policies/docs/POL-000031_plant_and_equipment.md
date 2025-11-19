@@ -183,11 +183,20 @@ Signed (Project Manager)
 _This form should also be submitted to the relevant Regional Manager and, in cases of lost or stolen plant, to Finance._
 
 
-<iframe>
-        src=".\pol_assests\3rd Test policy.pdf" 
+<iframe src=".\pol_assests\3rd Test policy.pdf" 
         width="100%" 
         height="800px" 
-        style="border: none;"
+        style="border: none;">
+        
+</iframe>
+
+<iframe src="../pol_assests/3rd Test policy.pdf#zoom=100" 
+        width="100%" 
+        height="1000px"
+        style="border: none; max-width: 100%;"
+        frameborder="0">
+  Your browser does not support PDFs. 
+  <a href="../pol_assests/3rd Test policy.pdf">Download the PDF</a> instead.
 </iframe>
 
 
