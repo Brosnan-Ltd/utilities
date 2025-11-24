@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,6 +18,7 @@
       --border: #1f2937;
       --cardHover: #0b1220;
     }
+
     @media (prefers-color-scheme: light) {
       :root {
         --bg: #f8fafc;
@@ -30,12 +32,22 @@
       }
     }
 
-    *, *::before, *::after { box-sizing: border-box; }
-    html, body { height: 100%; margin: 0; }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html,
     body {
-      background: radial-gradient(1200px 600px at 10% 0%, rgba(56,189,248,0.10), transparent),
-                  radial-gradient(1200px 600px at 90% 100%, rgba(245,158,11,0.10), transparent),
-                  var(--bg);
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background: radial-gradient(1200px 600px at 10% 0%, rgba(56, 189, 248, 0.10), transparent),
+        radial-gradient(1200px 600px at 90% 100%, rgba(245, 158, 11, 0.10), transparent),
+        var(--bg);
       color: var(--text);
       font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji";
     }
@@ -46,18 +58,41 @@
       grid-template-rows: auto 1fr auto;
     }
 
-    header { padding: 2rem 1rem 0.5rem; text-align: center; }
+    header {
+      padding: 2rem 1rem 0.5rem;
+      text-align: center;
+    }
+
     header img {
       width: 120px;
       height: auto;
       display: block;
       margin: 0 auto 1rem;
     }
-    h1 { margin: 0 0 0.25rem; font-size: clamp(1.5rem, 2.4vw + 1rem, 2.25rem); letter-spacing: 0.2px; }
-    p.lead { margin: 0 auto; max-width: 60ch; color: var(--muted); font-size: clamp(0.95rem, 0.4vw + 0.8rem, 1.05rem); }
 
-    .container { width: min(840px, 100%); margin: 1.25rem auto 2.5rem; padding: 0 1rem 2rem; }
-    .list { display: grid; gap: 0.75rem; }
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: clamp(1.5rem, 2.4vw + 1rem, 2.25rem);
+      letter-spacing: 0.2px;
+    }
+
+    p.lead {
+      margin: 0 auto;
+      max-width: 60ch;
+      color: var(--muted);
+      font-size: clamp(0.95rem, 0.4vw + 0.8rem, 1.05rem);
+    }
+
+    .container {
+      width: min(840px, 100%);
+      margin: 1.25rem auto 2.5rem;
+      padding: 0 1rem 2rem;
+    }
+
+    .list {
+      display: grid;
+      gap: 0.75rem;
+    }
 
     .item {
       display: grid;
@@ -71,19 +106,55 @@
       text-decoration: none;
       color: inherit;
       transition: transform 120ms ease, background 120ms ease, box-shadow 120ms ease;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     }
-    .item:hover { transform: translateY(-1px); background: var(--cardHover); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
-    .item:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 
-    .icon { width: 22px; height: 22px; opacity: 0.9; }
-    .title { font-weight: 600; font-size: 1rem; }
-    .meta { color: var(--muted); font-size: 0.8rem; }
-    .details { color: var(--muted); font-size: 0.8rem; padding-top: 1rem; }
-    .chev { width: 18px; height: 18px; opacity: 0.7; }
+    .item:hover {
+      transform: translateY(-1px);
+      background: var(--cardHover);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .item:focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    .icon {
+      width: 22px;
+      height: 22px;
+      opacity: 0.9;
+    }
+
+    .title {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    .details {
+      color: var(--muted);
+      font-size: 0.8rem;
+      padding-top: 1rem;
+    }
+
+    .chev {
+      width: 18px;
+      height: 18px;
+      opacity: 0.7;
+    }
 
     /* Sub-items inside a grouped item */
-    .sublist { display: grid; gap: 0.6rem; margin-top: 0.5rem; }
+    .sublist {
+      display: grid;
+      gap: 0.6rem;
+      margin-top: 0.5rem;
+    }
+
     .subitem {
       display: grid;
       grid-template-columns: auto 1fr auto;
@@ -96,20 +167,47 @@
       text-decoration: none;
       color: inherit;
     }
-    .subitem:hover { background: var(--cardHover); }
-    .subitem .icon { width: 18px; height: 18px; }
-    .subitem .title { font-size: 0.95rem; }
-    .subitem .meta { font-size: 0.78rem; }
 
-    footer { color: var(--muted); text-align: center; padding: 1.25rem; font-size: 0.9rem; }
+    .subitem:hover {
+      background: var(--cardHover);
+    }
+
+    .subitem .icon {
+      width: 18px;
+      height: 18px;
+    }
+
+    .subitem .title {
+      font-size: 0.95rem;
+    }
+
+    .subitem .meta {
+      font-size: 0.78rem;
+    }
+
+    footer {
+      color: var(--muted);
+      text-align: center;
+      padding: 1.25rem;
+      font-size: 0.9rem;
+    }
 
     @media (max-width: 480px) {
-      .item { padding: 1.05rem 1.15rem; }
-      .title { font-size: 1.02rem; }
-      header img { width: 90px; }
+      .item {
+        padding: 1.05rem 1.15rem;
+      }
+
+      .title {
+        font-size: 1.02rem;
+      }
+
+      header img {
+        width: 90px;
+      }
     }
   </style>
 </head>
+
 <body>
   <div class="wrap">
     <header>
@@ -119,64 +217,112 @@
 
     <main class="container" role="main">
       <nav aria-label="Benefits links" class="list">
-        <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/AON%20Protection%20Insurance%20FAQ" target="_blank" rel="noopener noreferrer">
-            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
+        <a class="item"
+          href="https://brosnantraining.blob.core.windows.net/content/Benefits/AON%20Protection%20Insurance%20FAQ"
+          target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+          </svg>
           <div>
             <div class="title">Life, Trauma, Income and Child trauma insurance - AON Protection Insurance</div>
             <div class="meta">FAQ booklet covering information on employee protection insurance.</div>
-            <div class="details">For Permanent Employees, upon commencing you will be enrolled in our Protection Insurance – no action from the employee is necessary.</div>
+            <div class="details">For Permanent Employees, upon commencing you will be enrolled in our Protection
+              Insurance – no action from the employee is necessary.</div>
           </div>
-          <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M9 5l7 7-7 7" />
+          </svg>
         </a>
-
-        <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/Asteron%20Life%20Connected%20Care.pdf" target="_blank" rel="noopener noreferrer">
-          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
+        <div class="item" role="group" aria-labelledby="wellbeing">
           <div>
-            <div class="title">Employee wellbeing - Asteron Life Connected Care</div>
-            <div class="meta">Free wellbeing service for employees and their families, Connected Care offers support for medical, mental health, fitness and nutrition.</div>
+            <div class="title" id="employee-wellbeing">Employee wellbeing</div>
+            <div class="sublist">
+              <a class="item"
+                href="https://brosnantraining.blob.core.windows.net/content/Benefits/Asteron%20Life%20Connected%20Care.pdf"
+                target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+                </svg>
+                <div>
+                  <div class="title">Employee wellbeing - Asteron Life Connected Care</div>
+                  <div class="meta">Free wellbeing service for employees and their families, Connected Care offers
+                    support for medical, mental health, fitness and nutrition.</div>
+                </div>
+                <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/EAP%20Poster.pdf"
+                target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+                </svg>
+                <div>
+                  <div class="title">Employee Assistance Program (EAP)</div>
+                  <div class="meta">EAPs provide free, confidential counseling and support services to employees and
+                    their families. These programs typically cover areas like mental health, stress, substance abuse,
+                    financial concerns, family issues, and legal advice.</div>
+                </div>
+                <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
           </div>
-          <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
-        </a>
-
-        <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/Boost%20Flyer" target="_blank" rel="noopener noreferrer">
-            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
+        </div>
+        <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/Boost%20Flyer"
+          target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+          </svg>
           <div>
             <div class="title">Employee Discounts - Boost</div>
             <div class="meta">Discounts and offers from over 50 of New Zealand’s favourite brands and stores.</div>
           </div>
-          <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M9 5l7 7-7 7" />
+          </svg>
         </a>
 
-        <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/EAP%20Poster.pdf" target="_blank" rel="noopener noreferrer">
-            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
-          <div>
-            <div class="title">Employee Assistance Program (EAP)</div>
-            <div class="meta">EAPs provide free, confidential counseling and support services to employees and their families. These programs typically cover areas like mental health, stress, substance abuse, financial concerns, family issues, and legal advice.</div>
-          </div>
-          <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
-        </a>
+
 
         <div class="item" role="group" aria-labelledby="health-insurance">
-            
+
           <div>
             <div class="title" id="health-insurance">Health Insurance</div>
-            <div class="details">For Permanent Employees, upon reaching six months’ service, you will receive an email from Southern Cross with a link to complete the registration. If you have any questions, please reach out to <a href="mailto:HR@Brosnan.co.nz">HR@Brosnan.co.nz</a></div>
+            <div class="details">For Permanent Employees, upon reaching six months’ service, you will receive an email
+              from Southern Cross with a link to complete the registration. If you have any questions, please reach out
+              to <a href="mailto:HR@Brosnan.co.nz">HR@Brosnan.co.nz</a></div>
             <div class="sublist">
-              <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/Wellbeing%20One%20Benefit%20Summary.pdf" target="_blank" rel="noopener noreferrer">
-                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
+              <a class="item"
+                href="https://brosnantraining.blob.core.windows.net/content/Benefits/Wellbeing%20One%20Benefit%20Summary.pdf"
+                target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+                </svg>
                 <div>
                   <div class="title">Summary</div>
-                  <div class="meta">This document provides a summary of the benefits offered under Wellbeing One - the Health Insurance benefit provided to Permanent Brosnan Employees.</div>
+                  <div class="meta">This document provides a summary of the benefits offered under Wellbeing One - the
+                    Health Insurance benefit provided to Permanent Brosnan Employees.</div>
                 </div>
-                <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
+                <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M9 5l7 7-7 7" />
+                </svg>
               </a>
-              <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/Southern%20Cross%20Wellbeing%20One%20Policy%20Document.pdf" target="_blank" rel="noopener noreferrer">
-                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
+              <a class="item"
+                href="https://brosnantraining.blob.core.windows.net/content/Benefits/Southern%20Cross%20Wellbeing%20One%20Policy%20Document.pdf"
+                target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+                </svg>
                 <div>
                   <div class="title">Policy Document</div>
-                  <div class="meta">This document covers what is included in your coverage, what the plan doesn't cover, how to make a claim and other questions you may have around this benefit.</div>
+                  <div class="meta">This document covers what is included in your coverage, what the plan doesn't cover,
+                    how to make a claim and other questions you may have around this benefit.</div>
                 </div>
-                <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
+                <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M9 5l7 7-7 7" />
+                </svg>
               </a>
             </div>
           </div>
@@ -188,7 +334,9 @@
             <div class="sublist">
               <div>
                 <div class="title">Study Support</div>
-                <div class="meta">Brosnan supports your learning journey through course fee reimbursement. We’ll cover 50% of course fees, reimbursed after successful completion. Please note, this doesn’t include materials, books, or admin fees.</div>
+                <div class="meta">Brosnan supports your learning journey through course fee reimbursement. We’ll cover
+                  50% of course fees, reimbursed after successful completion. Please note, this doesn’t include
+                  materials, books, or admin fees.</div>
                 <div class="details">How to apply:
                   <ol>
                     <li>Speak with your manager to ensure their support.</li>
@@ -200,8 +348,12 @@
               </div>
               <div>
                 <div class="title">Professional Membership</div>
-                <div class="meta">Brosnan encourages employees to maintain career-related professional memberships and will fund one professional membership annually. A fixed amount per employee has been set aside in support of this initiative.</div>
-                <div class="details">After discussing with your manager, complete the Professional Membership Application Form in myToolkit. This is under the Documents > Catalogue > Professional Membership Application.</div>
+                <div class="meta">Brosnan encourages employees to maintain career-related professional memberships and
+                  will fund one professional membership annually. A fixed amount per employee has been set aside in
+                  support of this initiative.</div>
+                <div class="details">After discussing with your manager, complete the Professional Membership
+                  Application Form in myToolkit. This is under the Documents > Catalogue > Professional Membership
+                  Application.</div>
               </div>
             </div>
           </div>
@@ -212,11 +364,16 @@
             <div class="sublist">
               <div>
                 <div class="title">Spotify Premium</div>
-                <div class="meta">Available to all employees with a work mobile plan is free Spotify Premium. This perk gives you access to millions of songs, podcasts, and audiobooks for an enhanced entertainment experience.</div>
-                <div class="details">Please reach out to Spark by emailing <a href="mailto:hubaucklandnorth@spark.co.nz">hubaucklandnorth@spark.co.nz</a>. Include your work mobile number and request an activation text to be sent to you. You will then need to follow the prompts given to you.
+                <div class="meta">Available to all employees with a work mobile plan is free Spotify Premium. This perk
+                  gives you access to millions of songs, podcasts, and audiobooks for an enhanced entertainment
+                  experience.</div>
+                <div class="details">Please reach out to Spark by emailing <a
+                    href="mailto:hubaucklandnorth@spark.co.nz">hubaucklandnorth@spark.co.nz</a>. Include your work
+                  mobile number and request an activation text to be sent to you. You will then need to follow the
+                  prompts given to you.
+                </div>
               </div>
             </div>
-          </div>
       </nav>
     </main>
 
@@ -235,7 +392,8 @@
         if (el) el.style.display = 'none';
       });
     }
-    
+
   </script>
 </body>
+
 </html>
