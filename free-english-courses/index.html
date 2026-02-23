@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="../assets/brosnan_fav.png" rel="shortcut icon" type="image/x-icon">
+  <title>Brosnan Free English Classes – Application Form</title>
+  <meta name="description" content="Practical English classes for Brosnan team members to enhance carpentry skills, safety, and communication." />
+  <style>
+    :root {
+      --bg: #231F20;
+      --card: #4E555B;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --link: #F68B1F;
+      --focus: #F68B1F;
+      --border: #1f2937;
+      --cardHover: #3a3f44;
+      --button-bg: var(--link);
+      --button-text: var(--bg);
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --text: #231F20;
+        --muted: #4E555B;
+        --link: #F68B1F;
+        --focus: #F68B1F;
+        --border: #e5e7eb;
+        --cardHover: #f1f5f9;
+        --button-bg: var(--link);
+        --button-text: var(--bg);
+      }
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background:
+        radial-gradient(200vw 200vh at 10% 0%, rgba(246, 139, 31, 0.10), transparent),
+        radial-gradient(200vw 200vh at 90% 100%, rgba(78, 85, 91, 0.10), transparent),
+        var(--bg);
+      background-attachment: fixed;
+      color: var(--text);
+      font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+
+    .wrap {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    header {
+      padding: 2rem 1rem 0.5rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: clamp(1.5rem, 2.4vw + 1rem, 2.25rem);
+      letter-spacing: 0.2px;
+    }
+
+    p.lead {
+      margin: 0 auto;
+      max-width: 60ch;
+      color: var(--muted);
+      font-size: clamp(0.95rem, 0.4vw + 0.8rem, 1.05rem);
+    }
+
+    .container {
+      width: min(840px, 100%);
+      margin: 1.25rem auto 2.5rem;
+      padding: 0 1rem 2rem;
+    }
+
+    .list {
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .item {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 0.9rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem 2rem;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 120ms ease, background 120ms ease, box-shadow 120ms ease;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    .item:hover {
+      transform: translateY(-1px);
+      background: var(--cardHover);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .item:focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    .icon {
+      width: 22px;
+      height: 22px;
+      opacity: 0.9;
+    }
+
+    .title {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .details {
+      color: var(--muted);
+      font-size: 0.8rem;
+      padding-top: 1rem;
+    }
+
+    .chev {
+      width: 18px;
+      height: 18px;
+      opacity: 0.7;
+    }
+
+    /* Adjust for items without icon and chev */
+    .item.no-icon-chev {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    .item.no-icon-chev > div {
+      grid-column: 1;
+    }
+
+    .section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      transition: transform 120ms ease, background 120ms ease, box-shadow 120ms ease;
+    }
+
+    .section:hover {
+      transform: translateY(-1px);
+      background: var(--cardHover);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+      color: var(--text);
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: var(--link);
+      text-align: center;
+      margin: 1rem 0;
+    }
+
+    .register {
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-top: 2rem;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--button-bg);
+      color: var(--button-text);
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      opacity: 0.9;
+    }
+
+    footer {
+      color: var(--muted);
+      text-align: center;
+      padding: 1.25rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 480px) {
+      .item {
+        padding: 1.2rem 1.5rem;
+      }
+
+      .title {
+        font-size: 1.1rem;
+      }
+
+      header img {
+        width: 90px;
+      }
+    }
+  </style>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MDQM5EQL27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MDQM5EQL27');
+</script>
+
+<body>
+  <div class="wrap">
+    <header>
+      <img src="../assets/brosnan_logo.png" alt="Brosnan logo" />
+      <h1>Brosnan Free English Classes – Application Form</h1>
+    </header>
+
+    <main class="container" role="main">
+      <div class="section">
+        <p>This programme is not like a school English class. It is a practical, hands-on course to help you become an even better carpenter and team member. You will learn the words and phrases you need to work safely, communicate clearly, and share your skills.</p>
+        <p class="highlight">Fully funded for Brosnan team members!</p>
+      </div>
+
+      <div class="section">
+        <h2>What You Will Learn:</h2>
+        <div class="list">
+          <div class="item no-icon-chev">
+            <div>
+              <div class="title">Master Construction Talk</div>
+              <div class="meta">Learn the specific English words for tools, materials, and building tasks you use every day.</div>
+            </div>
+          </div>
+          <div class="item no-icon-chev">
+            <div>
+              <div class="title">Understand Site Plans & Documents</div>
+              <div class="meta">Feel confident reading job cards, instructions, and safety forms.</div>
+            </div>
+          </div>
+          <div class="item no-icon-chev">
+            <div>
+              <div class="title">Speak Up at Toolbox Talks</div>
+              <div class="meta">Learn how to share your ideas, ask good questions, and talk about safety with your crew.</div>
+            </div>
+          </div>
+          <div class="item no-icon-chev">
+            <div>
+              <div class="title">Work Safer</div>
+              <div class="meta">Understand safety signs, hazard reports, and how to communicate clearly to keep everyone safe on site.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Why Take This Course?</h2>
+        <div class="list">
+          <div class="item no-icon-chev">
+            <div>
+              <div class="title">Build Confidence</div>
+              <div class="meta">Feel good about speaking up and sharing your skills.</div>
+            </div>
+          </div>
+          <div class="item no-icon-chev">
+            <div>
+              <div class="title">Reduce Mistakes</div>
+              <div class="meta">Avoid misunderstandings that can lead to rework.</div>
+            </div>
+          </div>
+          <div class="item no-icon-chev">
+            <div>
+              <div class="title">Become a Leader</div>
+              <div class="meta">The best carpenters are great communicators. This course helps you become one.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Current Term - Quick Facts:</h2>
+        <div class="list">
+          <div class="item no-icon-chev">
+            <div>
+              <div class="title">Duration</div>
+              <div class="meta">12 weeks (2 hours per week) – March 3 start</div>
+            </div>
+          </div>
+          <div class="item no-icon-chev">
+            <div>
+              <div class="title">Location & Time</div>
+              <div class="meta">Board Room at the Brosnan Queenstown Office, 5 pm</div>
+            </div>
+          </div>
+          <div class="item no-icon-chev">
+            <div>
+              <div class="title">Group Size</div>
+              <div class="meta">max. 10 people</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="register">
+        <a href="https://forms.office.com/r/u5SvgmKwQq" class="button">Register Now!</a>
+      </div>
+    </main>
+
+    <footer>
+      <span>© <span id="y"></span> Brosnan Ltd.</span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    // Hide header if ?unbranded=1 is in the query string
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('unbranded') === '1') {
+      ['header', 'footer'].forEach(sel => {
+        const el = document.querySelector(sel);
+        if (el) el.style.display = 'none';
+      });
+    }
+  </script>
+</body>
+
+</html>
