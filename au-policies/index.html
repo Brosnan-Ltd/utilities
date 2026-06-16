@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="../assets/brosnan_fav.png" rel="shortcut icon" type="image/x-icon">
+  <title>Brosnan Australia Policies</title>
+  <meta name="description" content="Quick links to Brosnan Australia policies." />
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --link: #38bdf8;
+      --focus: #f59e0b;
+      --border: #1f2937;
+      --cardHover: #0b1220;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --link: #0369a1;
+        --focus: #b45309;
+        --border: #e5e7eb;
+        --cardHover: #f1f5f9;
+      }
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background:
+        radial-gradient(200vw 200vh at 10% 0%, rgba(56, 189, 248, 0.10), transparent),
+        radial-gradient(200vw 200vh at 90% 100%, rgba(245, 158, 11, 0.10), transparent),
+        var(--bg);
+      background-attachment: fixed;
+      color: var(--text);
+      font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+
+    .wrap {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    header {
+      padding: 2rem 1rem 0.5rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: clamp(1.5rem, 2.4vw + 1rem, 2.25rem);
+      letter-spacing: 0.2px;
+    }
+
+    p.lead {
+      margin: 0 auto;
+      max-width: 60ch;
+      color: var(--muted);
+      font-size: clamp(0.95rem, 0.4vw + 0.8rem, 1.05rem);
+    }
+
+    .container {
+      width: min(840px, 100%);
+      margin: 1.25rem auto 2.5rem;
+      padding: 0 1rem 2rem;
+    }
+
+    .list {
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .item {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 0.9rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 0.95rem 1.1rem;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 120ms ease, background 120ms ease, box-shadow 120ms ease;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    .item:hover {
+      transform: translateY(-1px);
+      background: var(--cardHover);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .item:focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    .icon {
+      width: 22px;
+      height: 22px;
+      opacity: 0.9;
+    }
+
+    .title {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    .details {
+      color: var(--muted);
+      font-size: 0.8rem;
+      padding-top: 1rem;
+    }
+
+    .chev {
+      width: 18px;
+      height: 18px;
+      opacity: 0.7;
+    }
+
+    /* Sub-items inside a grouped item */
+    .sublist {
+      display: grid;
+      gap: 0.6rem;
+      margin-top: 0.5rem;
+    }
+
+    .subitem {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 0.6rem;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.7rem 0.9rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .subitem:hover {
+      background: var(--cardHover);
+    }
+
+    .subitem .icon {
+      width: 18px;
+      height: 18px;
+    }
+
+    .subitem .title {
+      font-size: 0.95rem;
+    }
+
+    .subitem .meta {
+      font-size: 0.78rem;
+    }
+
+    footer {
+      color: var(--muted);
+      text-align: center;
+      padding: 1.25rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 480px) {
+      .item {
+        padding: 1.05rem 1.15rem;
+      }
+
+      .title {
+        font-size: 1.02rem;
+      }
+
+      header img {
+        width: 90px;
+      }
+    }
+  </style>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MDQM5EQL27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-MDQM5EQL27');
+</script>
+
+<body>
+  <div class="wrap">
+    <header>
+      <img src="../assets/brosnan_logo.png" alt="Brosnan logo" />
+      <h1>Brosnan Australia Policies</h1>
+    </header>
+
+    <main class="container" role="main">
+      <nav aria-label="Brosnan Australia Policy links" class="list">
+        <a class="item"
+          href="https://brosnantraining.blob.core.windows.net/content/00%20Code%20of%20Conduct%20Policy%20-%20June%202026.pdf"
+          target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+          </svg>
+          <div>
+            <div class="title">Code of conduct</div>
+            <div class="meta">Code of conduct for Brosnan employees.</div>
+          </div>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a class="item"
+            href="https://brosnantraining.blob.core.windows.net/content/05%20Vehicle%20Policy%20-%20June%202026.pdf"
+            target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+          </svg>
+          <div>
+            <div class="title">Vehicle policy</div>
+            <div class="meta">Vehicle policy for Brosnan employees.</div>
+          </div>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a class="item"
+            href="https://brosnantraining.blob.core.windows.net/content/01%20Work%20Health%20and%20Safety%20Policy.pdf"
+            target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+          </svg>
+          <div>
+            <div class="title">Work health and safety policy</div>
+            <div class="meta">Work health and safety policy for Brosnan employees.</div>
+          </div>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a class="item"
+            href="https://brosnantraining.blob.core.windows.net/content/02%20Environmental%20Policy.pdf"
+            target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+          </svg>
+          <div>
+            <div class="title">Environmental policy</div>
+            <div class="meta">Environmental policy for Brosnan employees.</div>
+          </div>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a class="item"
+            href="https://brosnantraining.blob.core.windows.net/content/03%20Quality%20Policy.pdf"
+            target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+          </svg>
+          <div>
+            <div class="title">Quality policy</div>
+            <div class="meta">Quality policy for Brosnan employees.</div>
+          </div>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a class="item"
+            href="https://brosnantraining.blob.core.windows.net/content/04%20Sustainability%20Policy.pdf"
+            target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z" />
+          </svg>
+          <div>
+            <div class="title">Sustainability policy</div>
+            <div class="meta">Sustainability policy for Brosnan employees.</div>
+          </div>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </nav>
+    </main>
+
+    <footer>
+      <span>© <span id="y"></span> Brosnan Ltd. Resources open in a new tab.</span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    // Hide header if ?unbranded=1 is in the query string
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('unbranded') === '1') {
+      ['header', 'footer'].forEach(sel => {
+        const el = document.querySelector(sel);
+        if (el) el.style.display = 'none';
+      });
+    }
+
+  </script>
+</body>
+
+</html>
